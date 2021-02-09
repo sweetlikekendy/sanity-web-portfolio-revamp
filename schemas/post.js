@@ -41,6 +41,27 @@ export default {
       },
     },
     {
+      name: "imageAlt",
+      title: "Image Description (alt tag)",
+      type: "string",
+      description:
+        "Describe your image so that screen readers can read the description.",
+    },
+    {
+      name: "imageCreditUrl",
+      title: "Image Credit Url",
+      type: "string",
+      description:
+        "If you got your picture from websites such as https://unsplash.com please link the url here.",
+    },
+    {
+      name: "imageCreditPhotographer",
+      title: "Image Credit Photographer",
+      type: "string",
+      description:
+        "If you got your picture from websites such as https://unsplash.com please put the photographer's full name here.",
+    },
+    {
       name: "categories",
       title: "Categories",
       type: "array",
